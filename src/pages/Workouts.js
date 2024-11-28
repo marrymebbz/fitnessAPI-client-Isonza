@@ -180,6 +180,7 @@ export default function Workouts() {
             variant="primary" 
             onClick={handleShowModal} 
             className="mx-auto mt-2 mb-3 d-flex px-5 py-2 bg-info bg-gradient border-0 fw-bold text-center"
+            id="AddWorkout"
           >
             Add Workout
           </Button>

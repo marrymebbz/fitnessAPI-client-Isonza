@@ -10,7 +10,7 @@ export default function AppNavbar() {
     const { user } = useContext(AuthContext);  // Access user from context
 
     return (
-        <Navbar expand="lg" className="bg-warning bg-gradient text-black fw-semibold">
+        <Navbar expand="lg" className="navbar bg-warning bg-gradient text-black fw-semibold">
             <Container>
                 <Navbar.Brand as={NavLink} to="/" className="fw-semibold">FitTrack: Your Personal Fitness Journey</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
