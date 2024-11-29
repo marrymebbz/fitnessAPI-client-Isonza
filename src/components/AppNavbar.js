@@ -15,7 +15,7 @@ export default function AppNavbar() {
                 <Navbar.Brand as={NavLink} to="/" className="fw-semibold">FitTrack: Your Personal Fitness Journey</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto navbar">
                         <Nav.Link as={NavLink} to="/">Home</Nav.Link>
                         { user ? (
                             <>
