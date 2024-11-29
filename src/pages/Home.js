@@ -14,11 +14,11 @@ export default function Home() {
                     <p className="text-uppercase fw-bold mb-2 text-warning">Best FitTracker App</p>
                     <h1 className="fs-2">Welcome to FitTrack, your trusted companion on the journey to a healthier, stronger, and more confident you. </h1>
                     <p className="fs-4">Whether you're starting fresh or aiming to elevate your fitness game, FitTrack is designed to guide and inspire you every step of the way.</p>
-                    <Link 
+                    {/* <Link 
                         to="/workouts" 
                         className="m-0 py-2 px-5 w-100 border fw-semibold text-decoration-none rounded text-black text-uppercase bg-warning bg-gradient border-0"
                         >Check now!
-                    </Link>
+                    </Link> */}
                 </Col>
             </Row>
             <Row className="py-5 text-center mx-auto d-flex justify-content-center align-items-center container">
